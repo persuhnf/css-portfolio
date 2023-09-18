@@ -6,37 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mondrian Project</title>
   <style>
-    /* 
-    Write your CSS here 
-    Gap Colour: #000
-    White: #F0F1EC
-    Red: #E72F24
-    Black: #232629
-    Blue: #004592
-    Yellow: #F9D01E
-
-    For dimensions, see dimensions.png image.
-    HINT: Remember you can't change the properties of grid lines.
-    But grid lines are transparent!
-    */
     body {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
-      margin: 0;
-      padding: 0;
+      margin: 2em;
     }
 
     .big-boy{
       background-color:#000;
-      height: 748px;
-      width: 748px;
+      height: 440px;
+      width: 440px;
       display: grid;
-      grid-template-columns: 320px 198px 153px 50px;
-      grid-template-rows: 414px 130px 155px 22px;
-      gap: 9px;
-      border: 9px solid #000;
+      grid-template-columns: 3.5fr 2fr 1.5fr 0.5fr;
+      grid-template-rows: 5fr 2fr 2fr 0.5fr;
+      gap: 8px;
+      border: 8px solid #000;
     }
 
     .white {
@@ -60,7 +46,7 @@
 
     .five {
       background-color: #004592;
-      border-bottom: 10px solid #000;
+      border-bottom: 9px solid #000;
     }
 
     .six {
@@ -74,11 +60,12 @@
     .nine {
       background-color: #232629;
     }
+
   </style>
 </head>
 
 <body>
-  <!-- Write your HTML here -->
+
   <div class="big-boy">
     <div class="one red"></div>
     <div class="two white"></div>
