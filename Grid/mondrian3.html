@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Mondrian in CSS Project</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 2em;
+        }
+
+        .big-boy {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr) 1.2fr 1.2fr 0.5fr;
+            grid-template-rows: 2fr repeat(5, 2fr) 2fr 1fr 0.5fr;
+            background-color: #000;
+            height: 695px;
+            width: 695px;
+            gap: 10px;
+            border: solid 10px #000;
+        }
+
+        .big-boy > * {
+            display: inline-block;
+            max-height: 100%;
+        }
+
+        .white {
+            background-color: #F0F1EC;
+        }
+
+        .yellow {
+            background-color: #F9D01E;
+        }
+
+        .red {
+            background-color: #E72F24;
+        }
+
+        .black {
+            background-color: #232629;
+        }
+
+        .blue {
+            background-color: #004592;
+        }
+
+        .one {
+            grid-column: span 2;
+            grid-area: 1 / 1 / 2 / 3;
+        }
+
+        .two {
+            grid-column: span 2;
+            grid-area: 1 / 3 / 2 / 6;
+        }
+
+        .three {
+            grid-column: span 2;
+            grid-area: 1 / 6 / 2 / 8;
+        }
+
+        .four {
+            grid-row: span 2;
+            grid-area: 2 / 1 / 4 / 2;
+        }
+
+        .five {
+            grid-row: span 4;
+            grid-column: span 4;
+            grid-area: 2 / 2 / 6 / 6;
+        }
+
+        .six {
+            grid-row: span 2;
+            grid-column: span 3;
+            grid-area: 2 / 6 / 4 / 8;
+        }
+
+        .seven {
+            grid-row: span 2;
+            grid-area: 4 / 1 / 7 / 2;
+        }
+
+        .eight {
+            grid-row: span 2;
+            grid-column: span 2;
+            grid-area: 6 / 2 / 8 / 4;
+        }
+
+        .nine {
+            grid-column: span 2;
+            grid-area: 6 / 4 / 7 / 6;
+        }
+
+        .ten {
+            grid-column: span 2;
+            grid-area: 7 / 4 / 8 / 6;
+        }
+        
+        .eleven {
+            grid-row: span 2;
+            grid-area: 4 / 6 / 6 / 7;
+        }
+
+        .twelve {
+            grid-row: span 2;
+            grid-area: 4 / 7 / 6 / 8;
+        }
+
+        .thirteen {
+            grid-column: span 2;
+            grid-area: 6 / 6 / 7 / 8;
+        }
+        
+        .fourteen {
+            grid-area: 7 / 1 / 10 / 2;
+            height: 2fr;
+        }
+
+        .fifteen {
+            grid-column: span 2;
+            grid-area: 8 / 2 / 10 / 4;
+        }
+
+        .sixteen {
+            grid-column: span 2;
+            grid-area: 8 / 4 / 9 / 6;
+        }
+
+        .seventeen {
+            grid-column: span 2;
+            grid-area: 7 / 6 / 9 / 8;
+        }
+
+        .eighteen {
+            grid-column: span 4;
+            grid-area: 9 / 4 / 10 / 8;
+        }
+        
+        .nineteen {
+            grid-row: span 6;
+            grid-area: 1 / 8 / 7 / 9;
+        }
+
+        .twenty {
+            grid-row: span 3;
+            grid-area: 7 / 8 / 10 / 9;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="big-boy">
+        <div class="one white"></div>
+        <div class="two white"></div>
+        <div class="three yellow"></div>
+        <div class="four white"></div>
+        <div class="five red"></div>
+        <div class="six yellow"></div>
+        <div class="seven white"></div>
+        <div class="eight black"></div>
+        <div class="nine white"></div>
+        <div class="ten white"></div>
+        <div class="eleven white"></div>
+        <div class="twelve white"></div>
+        <div class="thirteen white"></div>
+        <div class="fourteen yellow"></div>
+        <div class="fifteen white"></div>
+        <div class="sixteen black"></div>
+        <div class="seventeen blue"></div>
+        <div class="eighteen white"></div>
+        <div class="nineteen white"></div>
+        <div class="twenty red"></div>
+    </div>
+
+</body>
+</html>
