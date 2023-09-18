@@ -15,34 +15,56 @@ h2 {
 }
 
 .first {
-    background-color: #C63D2F;
+    background-color: #7BBC53;
     text-align: center;
     padding: 15px 0px 15px 0px;
     margin-bottom: 15px;
 }
 
 .second {
-    background-color: #E25E3E;
+    background-color: #EDB931;
     text-align: center;
     padding: 15px;
     margin-bottom: 15px;
 }
 
 .third {
-    background-color: #FF9B50;
+    background-color: #4378A0;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.flexbox{
+    background-color: #E4502E;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.grid {
+    background-color: #e78a65;
     text-align: center;
     padding: 15px;
     margin-bottom: 15px;
 }
 
 #first {
-    color:antiquewhite;
+    color:white;
 }
 
 #second {
-    color:antiquewhite;
+    color:white;
 }
 
 #third {
-    color:antiquewhite;
+    color:white;
+}
+
+#fourth {
+    color:white;
+}
+
+#fifth {
+    color: white;
 }
